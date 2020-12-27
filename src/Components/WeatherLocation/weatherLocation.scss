@@ -1,0 +1,11 @@
+.weather {
+  padding-top: 55px;
+  color: #fff;
+  &__city {
+    font-size: 24px;
+  }
+  &__temp {
+    padding: 40px 0;
+    font-size: 90px;
+  }
+}
