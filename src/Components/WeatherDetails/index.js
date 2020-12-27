@@ -14,7 +14,6 @@ const WeatherDetails = ({ state, getWeather }) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
   const { isLoadWeather, weather } = state
-  console.log(weather)
   return (
     <div className="weather">
       {isLoadWeather ? (

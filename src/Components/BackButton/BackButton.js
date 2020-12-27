@@ -11,12 +11,7 @@ const BackButton = () => {
       type="button"
       onClick={() => history.goBack()}
     >
-      <Icon
-        name="arrow alternate circle left outline"
-        size="big"
-        color="white"
-        inverted
-      />
+      <Icon name="arrow alternate circle left outline" size="big" inverted />
     </button>
   )
 }

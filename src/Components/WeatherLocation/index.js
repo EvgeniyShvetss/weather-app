@@ -7,7 +7,6 @@ import SelectItem from "../SelectExample"
 
 // eslint-disable-next-line no-shadow
 const WeatherLocation = ({ getWeatherLocation, state }) => {
-  console.log(state)
   useEffect(() => {
     getWeatherLocation()
     // eslint-disable-next-line react-hooks/exhaustive-deps
